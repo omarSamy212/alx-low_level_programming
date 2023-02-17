@@ -8,9 +8,9 @@
  */
 int main(void)
 {
-	char cap[26] = "Abcdefghijklmnopqrstuvwxyz";
+	char i;
 
-	for (char i = 'a'; ; i++)
+	for (i = 'a'; ; i++)
 	{
 		putchar(i);
 		if (i == 122)
